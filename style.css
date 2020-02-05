@@ -1,0 +1,133 @@
+/* colors and font */
+
+body{background-color: #ffffff;
+	color: black;
+	font-family: 'Merriweather', serif;
+	size: 15px
+	font-weight: lighter;}
+	
+
+
+
+h1{color:#024771;
+	font-size: 50px;
+	font-family: 'Yellowtail', cursive;
+	font-weight: 900
+	}
+ 
+h2{color: #024771;
+	size: 15px;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif}
+
+a{text-decoration: none;
+	}
+
+a:hover {text-decoration: underline} 
+
+.text-justify{text-align: justify;
+text-align: center}
+
+.buton{background-color: #024771;
+		border-radius: 50px;
+		color:#ffffff ;
+		height: 200px;
+		width: 100px;
+		padding: 10px 20px;}
+
+.buton:hover{color: black}
+
+.puple-but{background-color:  #ff1ed5;
+		border-radius: 50px;
+		color:purple ;
+		height: 200px;
+		width: 100px;
+		padding: 10px 20px;}
+
+
+/*constum design with class (99 of your design) */
+
+
+.container {
+	width: 1340px;}
+
+@media (max-width: 1200px){
+	.container {
+		width: 1100px;
+	}}
+
+@media (max-width: 1100px){
+	.container {
+		width: 1000px;
+	}}
+
+@media (max-width: 1000px){
+	.container {
+		width: 900px;
+	}}
+
+@media (max-width: 900px){
+	.container {
+		width: 800px;
+	}}
+
+@media (max-width: 800px){
+	.container {
+		width: 700px;
+	}}
+
+@media (max-width: 700px){
+	.container {
+		width: 600px;
+	}}
+
+@media (max-width: 600px){
+	.container {
+		width: 500px;
+	}}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}}
+
+@media (max-width: 400px){
+	.container {
+		width: 300px;
+	}}
+
+@media (max-width: 300px){
+	.container {
+		width: 200px;
+	}}
+
+@media (max-width: 200px){
+	.container {
+		width: 100px;
+	}}
+
+
+.card-white {
+	background-color: ;
+	padding:;
+	margin: ;
+	box-shadow: ;
+	border-radius: ;
+	text-align: center }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	font-size: 30px
+}
+
+.list-inline a :hover{font-size: 40px}
+
+#ieseg:hover {font-size: 25px}
+.ecole{list-style: none}
